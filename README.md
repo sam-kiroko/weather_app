@@ -36,3 +36,66 @@ A dynamic weather application that combines real-time weather data with an inter
 - Python-dotenv 1.0.0
 - Pillow 10.2.0
 
+
+## Usage
+
+1. **Search by City**:
+   - Enter a city name in the search bar
+   - Click "Get Weather" or press Enter
+
+2. **Search by Map**:
+   - Click anywhere on the map
+   - Weather information will appear in an overlay
+
+3. **View Weather History**:
+   - Weather history is automatically displayed below current conditions
+   - History is stored for each location searched
+
+## Project Structure
+weather-app/
+├── static/
+│ ├── images/ # Weather icons
+│ ├── js/
+│ │ └── map.js # Map interaction logic
+│ └── style.css # Global styles
+├── templates/
+│ └── index.html # Main application template
+├── app.py # Flask application
+├── config.py # Configuration settings
+├── database.py # Database operations
+├── weather_icons.py # Icon generation
+└── requirements.txt # Project dependencies
+
+## API Integration
+
+The application uses the OpenWeatherMap API to fetch weather data. The following endpoints are used:
+
+- Current weather by city name
+- Current weather by coordinates
+
+## Database
+
+The application uses SQLite to store:
+- Weather history by location
+- Temperature records
+- Humidity data
+- Weather descriptions
+- Timestamps
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- OpenWeatherMap API for weather data
+- Leaflet.js for mapping functionality
+- OpenStreetMap for map tiles
