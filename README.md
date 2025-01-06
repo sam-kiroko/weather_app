@@ -36,6 +36,15 @@ A dynamic weather application that combines real-time weather data with an inter
 - Python-dotenv 1.0.0
 - Pillow 10.2.0
 
+2. Create a virtual environment and activate it:
+3. Install required packages:
+  pip install -r requirements.txt   
+5. Create a `.env` file in the root directory and add your OpenWeatherMap API key:
+   OPENWEATHER_API_KEY=your_api_key_here
+7. Initialize the weather icons:
+   python weather_icons.py
+9. Run the application:
+10. Open your browser and navigate to:
 
 ## Usage
 
@@ -50,6 +59,7 @@ A dynamic weather application that combines real-time weather data with an inter
 3. **View Weather History**:
    - Weather history is automatically displayed below current conditions
    - History is stored for each location searched
+
 
 ## Project Structure
 weather-app/
