@@ -63,18 +63,18 @@ A dynamic weather application that combines real-time weather data with an inter
 
 ## Project Structure
 weather-app/
-├── static/
-│ ├── images/ # Weather icons
-│ ├── js/
-│ │ └── map.js # Map interaction logic
-│ └── style.css # Global styles
-├── templates/
-│ └── index.html # Main application template
-├── app.py # Flask application
-├── config.py # Configuration settings
-├── database.py # Database operations
-├── weather_icons.py # Icon generation
-└── requirements.txt # Project dependencies
+- ├── static/
+- │ ├── images/ # Weather icons
+- │ ├── js/
+- │ │ └── map.js # Map interaction logic
+- │ └── style.css # Global styles
+- ├── templates/
+- │ └── index.html # Main application template
+- ├── app.py # Flask application
+- ├── config.py # Configuration settings
+- ├── database.py # Database operations
+- ├── weather_icons.py # Icon generation
+- └── requirements.txt # Project dependencies
 
 ## API Integration
 
